@@ -1,5 +1,5 @@
 node{
-      def mvnHome = tool name: 'maven 3.5.4', type: 'maven' 
+      def mvnHome = tool name: 'maven', type: 'maven' 
       stage('Checkout'){
          git 'https://github.com/LovesCloud/java-tomcat-build-pipeline'
        
